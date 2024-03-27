@@ -1,9 +1,9 @@
-function App() {
+const App = () => {
   return (
-    <div>
-      blabla
-    </div>
+    <main className="container-lg">
+      Content
+    </main>
   );
-}
+};
 
 export default App;

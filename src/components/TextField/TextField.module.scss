@@ -1,0 +1,76 @@
+
+.textfield {
+  font-family: 'Gotham Pro', 'Gotham', sans-serif;
+  color: #050D23;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+
+  padding: 8px 12px 8px 16px;
+
+  border: 1px solid #E2E4F0;
+  border-radius: 8px;
+  background: none;
+
+  &::placeholder {
+    color: #828EAD;
+  }
+
+  &:hover {
+    border-color: #828EAD;
+  }
+
+  &:focus {
+    outline: none;
+    border: 2px solid #1551E5;
+    box-shadow: 0px 0px 6px 0px #BAC4E0;
+  }
+
+  transition: border-color .3s;
+}
+
+.search-form {
+  position: relative;
+}
+
+.search-form,
+.textfield {
+  min-width: 380px;
+  max-height: 56px;
+  height: 100%;
+}
+
+.searchfield {
+  height: 100%;
+  width: 100%;
+
+  padding: 8px 74px 8px 16px;
+
+  &::-webkit-search-cancel-button {
+    display: none;
+  }
+}
+
+.btn {
+  cursor: pointer;
+
+  position: absolute;
+  top: 50%;
+
+  width: 24px;
+  height: 24px;
+
+  border: none;
+  background: none;
+
+  transform: translateY(-50%);
+}
+
+.close {
+  right: 48px;
+}
+
+.search {
+  right: 12px;
+}

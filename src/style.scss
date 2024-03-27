@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('./assets/fonts/Gotham_Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('./assets/fonts/Gotham_Pro.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gotham', sans-serif;
+  box-sizing: border-box;
+}
+
+.container-lg {
+  max-width: 1552px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 0 24px;
+}
