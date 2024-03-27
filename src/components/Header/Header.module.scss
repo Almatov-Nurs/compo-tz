@@ -1,11 +1,27 @@
 .header {
-
+  display: flex;
 }
 
 .nav {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
 
+  grid-template-columns: repeat(2, auto) 1fr repeat(5, auto);
+
+  padding: 16px 24px !important;
+  column-gap: 24px;
+
+  background: #fff;
+}
+
+.divider {
+  border: none;
+  border-left: 1px solid #E2E4F0;
+  height: 100%;
+  width: 1px;
 }
 
 .links {
-
+  display: flex;
 }

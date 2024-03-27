@@ -1,8 +1,6 @@
 const Footer = () => {
   return (
-    <footer>
-      
-    </footer>
+    <footer className="container-lg">footer</footer>
   );
 };
 
