@@ -1,0 +1,166 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 48px;
+
+  padding: 48px 24px 0 !important;
+}
+
+.logo {
+  width: 206px;
+  height: 40px;
+}
+
+.item,
+.link,
+.category {
+  list-style: none;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+
+  column-gap: 56px;
+}
+
+.contacts {
+  display: flex;
+
+  column-gap: 48px;
+}
+
+.contact__item {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 16px;
+}
+
+.contact {
+  color: #050D23;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.contact_label {
+  color: #77829E;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.top_links {
+  display: flex;
+  align-items: center;
+
+  column-gap: 32px;
+}
+
+.divider {
+  height: 1px;
+
+  border: none;
+  background: #e2e4f0;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+
+  column-gap: 24px;
+}
+
+.category {
+  width: 370px;
+}
+
+.category__title {
+  color: #050D23;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+
+  margin-bottom: 24px;
+}
+
+.category__links {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 16px;
+}
+
+.link a {
+  color: #050D23;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 40px;
+}
+
+.aboutUs {
+  display: flex;
+  justify-content: center;
+
+  column-gap: 28px;
+}
+
+.faq__link {
+  display: flex;
+  align-items: center;
+
+  column-gap: 8px;
+
+  color: #77829E;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+
+  & svg * {
+    fill: #77829E;
+    color: #77829E;
+  }
+
+  &:focus {
+    &, & svg * {
+      fill: #1551E5;
+      color: #1551E5;
+    }
+  }
+}
+
+.policy {
+  color: #828EAD;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+
+.grayLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: 24px;
+
+  color: #8F9BB3;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+}
+
