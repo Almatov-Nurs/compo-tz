@@ -22,6 +22,46 @@
   width: 1px;
 }
 
+.second_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  column-gap: 16px;
+
+  padding: 20px 24px;
+}
+
 .links {
   display: flex;
+  align-items: center;
+
+  list-style: none;
+
+  column-gap: 24px;
+}
+
+.link,
+.blueLink {
+  font-family: 'Gotham Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.link {
+  color: #071435;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.blueLink {
+  color: #1551E5;
+}
+
+.blueLink_icon {
+  margin-right: 16px;
 }
