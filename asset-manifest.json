@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "./static/css/main.82d18deb.css",
-    "main.js": "./static/js/main.8942cc8b.js",
+    "main.css": "./static/css/main.8d8eae34.css",
+    "main.js": "./static/js/main.d082e2be.js",
     "static/media/Gotham_Pro.ttf": "./static/media/Gotham_Pro.4f71921a0823129cd8ba.ttf",
     "static/media/Gotham_Regular.ttf": "./static/media/Gotham_Regular.ee18da38355c28b949ac.ttf",
     "static/media/logo.svg": "./static/media/logo.ab2fa778b3e01c5a43cf60f66059a8b8.svg",
+    "static/media/messenger.svg": "./static/media/messenger.c8b885613e01bd5b453578116c38cfc4.svg",
+    "static/media/percent.svg": "./static/media/percent.9544a81d04ceb1398d3109c68795d8ea.svg",
     "static/media/notifications.svg": "./static/media/notifications.3710b0c9bc2f7d11c8d5fe310691f837.svg",
     "static/media/burger.svg": "./static/media/burger.2580753d46f632fd8437ad686967ee48.svg",
     "static/media/like.svg": "./static/media/like.d1ee0f942c56eb9887b3dcec8bb24c05.svg",
@@ -13,11 +15,11 @@
     "static/media/search.svg": "./static/media/search.8313af1fa1e20a06b91adfd34085e312.svg",
     "static/media/arrow.svg": "./static/media/arrow.32d2a95c462b517ea124088d33fb75de.svg",
     "index.html": "./index.html",
-    "main.82d18deb.css.map": "./static/css/main.82d18deb.css.map",
-    "main.8942cc8b.js.map": "./static/js/main.8942cc8b.js.map"
+    "main.8d8eae34.css.map": "./static/css/main.8d8eae34.css.map",
+    "main.d082e2be.js.map": "./static/js/main.d082e2be.js.map"
   },
   "entrypoints": [
-    "static/css/main.82d18deb.css",
-    "static/js/main.8942cc8b.js"
+    "static/css/main.8d8eae34.css",
+    "static/js/main.d082e2be.js"
   ]
 }
