@@ -4,6 +4,8 @@ import { ReactComponent as Burger } from '../../assets/icons/burger.svg';
 import { ReactComponent as Notifications } from '../../assets/icons/notifications.svg';
 import { ReactComponent as Like } from '../../assets/icons/like.svg';
 import { ReactComponent as Basket } from '../../assets/icons/basket.svg';
+import { ReactComponent as Messenger } from '../../assets/icons/messenger.svg';
+import { ReactComponent as Percent } from '../../assets/icons/percent.svg';
 // Components
 import Button from '../Button/Button';
 import TextField from '../TextField/TextField';
@@ -30,8 +32,19 @@ const Header = () => {
         <UserDropDown/>
       </nav>
 
-      <nav className={`${classes.links} container-lg`}>
-        links
+      <nav className={`${classes.second_nav} container-lg`}>
+        <ul className={classes.links}>
+          {
+            [ 'Мои заказы', 'Сотрудники', 'Шаблоны заказов', 'Обращения' ].map((text, index) => (
+              <li key={index}><a className={classes.link} href="#">{text}</a></li>
+            ))
+          }
+        </ul>
+        <ul className={classes.links}>
+          <Button icon={Messenger} iconGap={8} variant='text'>Ваш менеджер</Button>
+          <a className={classes.blueLink} href='#'><Percent className={classes.blueLink_icon} />Акции</a>
+          <a className={classes.blueLink} href='#'>Блог</a>
+        </ul>
       </nav>
     </header>
   );

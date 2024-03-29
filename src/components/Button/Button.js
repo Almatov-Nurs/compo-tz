@@ -11,6 +11,7 @@ const Button = ({
   disabled = false,
   variant = 'contained',
   icon: Icon = null,
+  iconGap = 12,
   children,
 }) => {
   const button = (
@@ -20,7 +21,7 @@ const Button = ({
       style={{ width: w, height: h }}
       type='button'
     >
-      {Icon ? <Icon className={classes.icon}/> : null}
+      {Icon ? <Icon className={classes.icon} style={{ marginRight: `${iconGap}px` }}/> : null}
       {children}
     </button>
   );
@@ -37,7 +38,7 @@ const Button = ({
       style={{ width: w, height: h }}
       type='button'
     >
-      {Icon ? <Icon className={classes.icon}/> : null}
+      {Icon ? <Icon className={classes.icon} style={{ marginRight: `${iconGap}px` }}/> : null}
       {children}
     </a>
   );
@@ -49,6 +50,7 @@ Button.propTypes = {
     PropTypes.elementType,
     PropTypes.node
   ]),
+  iconGap: PropTypes.number,
   variant: PropTypes.oneOf([ 'contained', 'text' ]),
   disabled: PropTypes.bool,
   h: PropTypes.oneOfType([
