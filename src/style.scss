@@ -15,6 +15,13 @@
   box-sizing: border-box;
 }
 
+#root {
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 .container-lg {
   max-width: 1552px;
   width: 100%;
