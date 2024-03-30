@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.53e81b6c.css",
-    "main.js": "./static/js/main.3aa1905a.js",
+    "main.css": "./static/css/main.6a6c62ef.css",
+    "main.js": "./static/js/main.212ed7a3.js",
+    "static/media/sneaker.png": "./static/media/sneaker.89630b600eb24ebe19d4.png",
     "static/media/Gotham_Pro.ttf": "./static/media/Gotham_Pro.4f71921a0823129cd8ba.ttf",
+    "static/media/sneaker1.png": "./static/media/sneaker1.d35bc28aaf57d7efdd98.png",
+    "static/media/sneaker3.png": "./static/media/sneaker3.60a2b1f8b2de32d5b4f9.png",
+    "static/media/sneaker2.png": "./static/media/sneaker2.764970a51171517f8990.png",
+    "static/media/sneaker4.png": "./static/media/sneaker4.53947256604e4cc8c5ec.png",
     "static/media/Gotham_Regular.ttf": "./static/media/Gotham_Regular.ee18da38355c28b949ac.ttf",
     "static/media/gray_logo.svg": "./static/media/gray_logo.2ef4e690c0eab2a75fe96eeeb7563564.svg",
     "static/media/logo.svg": "./static/media/logo.ab2fa778b3e01c5a43cf60f66059a8b8.svg",
@@ -18,13 +23,14 @@
     "static/media/youtube.svg": "./static/media/youtube.0c317fdd40dfa2c8b8e81594feed44a5.svg",
     "static/media/close.svg": "./static/media/close.3cb1886510850dbcbfea8ded6fff6246.svg",
     "static/media/search.svg": "./static/media/search.8313af1fa1e20a06b91adfd34085e312.svg",
+    "static/media/arrowLeft.svg": "./static/media/arrowLeft.92586f1bcdc79f8dc5d693ccfb786bd3.svg",
     "static/media/arrow.svg": "./static/media/arrow.32d2a95c462b517ea124088d33fb75de.svg",
     "index.html": "./index.html",
-    "main.53e81b6c.css.map": "./static/css/main.53e81b6c.css.map",
-    "main.3aa1905a.js.map": "./static/js/main.3aa1905a.js.map"
+    "main.6a6c62ef.css.map": "./static/css/main.6a6c62ef.css.map",
+    "main.212ed7a3.js.map": "./static/js/main.212ed7a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.53e81b6c.css",
-    "static/js/main.3aa1905a.js"
+    "static/css/main.6a6c62ef.css",
+    "static/js/main.212ed7a3.js"
   ]
 }
