@@ -13,13 +13,15 @@ const Button = ({
   icon: Icon = null,
   iconGap = 12,
   children,
+  style = {},
+  onClick = () => { },
 }) => {
   const button = (
     <button
       className={classes[ variant ]}
       disabled={disabled}
-      style={{ width: w, height: h }}
-      type='button'
+      onClick={onClick}
+      style={{ width: w, height: h, ...style }}
     >
       {Icon ? <Icon className={classes.icon} style={{ marginRight: `${iconGap}px` }}/> : null}
       {children}
@@ -35,8 +37,8 @@ const Button = ({
       className={classes[ variant ]}
       disabled={disabled}
       href={link}
-      style={{ width: w, height: h }}
-      type='button'
+      onClick={onClick}
+      style={{ width: w, height: h, ...style }}
     >
       {Icon ? <Icon className={classes.icon} style={{ marginRight: `${iconGap}px` }}/> : null}
       {children}
