@@ -1,0 +1,41 @@
+.main {
+  max-width: 400px;
+
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+
+  row-gap: 24px;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+
+  border-radius: 24px;
+}
+
+.slider {
+  width: 400px;
+  height: 64px;
+
+  display: flex;
+  column-gap: 16px;
+
+  margin: 0;
+}
+
+.slide {
+  cursor: pointer;
+
+  width: 64px;
+  height: 64px;
+
+  border-radius: 16px;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
