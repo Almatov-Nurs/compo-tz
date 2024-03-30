@@ -15,7 +15,7 @@ const UserDropDown = () => {
     <div className={classes.user} onClick={handleClick}>
       <img alt="Avatar" className={classes.avatar} src={avatar} />
       <span className={classes.username}>Ермаков Е.</span>
-      <button className={classes.btn} type='button'>
+      <button className={classes.btn}>
         <Arrow style={{ rotate: `${open ? 180 : 0}deg` }}/>
       </button>
     </div>

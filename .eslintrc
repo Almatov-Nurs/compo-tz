@@ -9,8 +9,13 @@
     "eslint:recommended",
     "plugin:react/recommended"
   ],
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaVersion": 6,
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+   },
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
@@ -25,7 +30,6 @@
     "import/newline-after-import": [ "error", { "count": 2 } ],
     // react rules
     "react/prefer-stateless-function": "error",
-    "react/button-has-type": "error",
     "react/no-unused-prop-types": "error",
     "react/jsx-pascal-case": "error",
     "react/jsx-no-script-url": "error",
@@ -57,7 +61,6 @@
     "react/jsx-curly-brace-presence": "warn",
     "react/no-typos": "warn",
     "react/display-name": "warn",
-    "react/self-closing-comp": "warn",
     "react/jsx-sort-props": "warn",
     "react/react-in-jsx-scope": "off",
     "react/jsx-one-expression-per-line": "off",
