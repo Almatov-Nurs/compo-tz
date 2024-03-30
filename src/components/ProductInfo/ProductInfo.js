@@ -1,5 +1,5 @@
 // Components
-import Checkbox from '../Checkbox/Checkbox';
+// import Checkbox from '../Checkbox/Checkbox';
 // Styles
 import classes from './ProductInfo.module.scss';
 
@@ -47,7 +47,7 @@ const ProductInfo = () => {
           </div>
           <div>
             <span className={classes.count}>12 штук в уп.</span>
-            <Checkbox />
+            {/* <Checkbox /> */}
           </div>
         </div>
         <hr className={classes.divider} />
