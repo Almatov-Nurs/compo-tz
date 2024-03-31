@@ -8,6 +8,8 @@
   display: flex;
 
   column-gap: 48px;
+
+  margin-bottom: 48px;
 }
 
 .buy {
@@ -60,6 +62,50 @@
   background: #FF3D71;
 }
 
+.order {
+  display: flex;
+
+  column-gap: 16px;
+}
+
+.count {
+  white-space: nowrap;
+  color: #828EAD;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+
+  padding: 8px;
+
+  border-radius: 8px;
+  background: #F2F5F9;
+}
+
+.dividerX {
+  width: 100%;
+
+  border: none;
+  border-top: 1px solid #E2E4F0;
+}
+
+.user_choices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  column-gap: 16px;
+
+  & .char_item {
+    row-gap: 4px;
+  }
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr auto;
+
+  column-gap: 16px;
+}
+
 .divider {
   border: none;
   border-left: 1px solid #E2E4F0;
@@ -106,4 +152,20 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
+}
+
+.subtitle {
+  color: #071435;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+
+  margin-bottom: 24px;
+}
+
+.description {
+  color: #071435;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
 }

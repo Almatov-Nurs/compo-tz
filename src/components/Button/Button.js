@@ -7,7 +7,6 @@ import classes from './Button.module.scss';
 const Button = ({
   w = 'initial',
   h = 'initial',
-  link = '#',
   disabled = false,
   variant = 'contained',
   icon: Icon = null,
@@ -33,16 +32,15 @@ const Button = ({
   }
 
   return (
-    <a
+    <button
       className={classes[ variant ]}
       disabled={disabled}
-      href={link}
       onClick={onClick}
       style={{ width: w, height: h, ...style }}
     >
       {Icon ? <Icon className={classes.icon} style={{ marginRight: `${iconGap}px` }}/> : null}
       {children}
-    </a>
+    </button>
   );
 };
 
@@ -59,7 +57,6 @@ Button.propTypes = {
     PropTypes.number,
     PropTypes.string
   ]),
-  link: PropTypes.string,
   w: PropTypes.oneOfType([
     PropTypes.number,
     PropTypes.string
